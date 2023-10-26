@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Assignment Manager App</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <header>     
+      <div class="alignCenter">
+        <img class="logo" src="./assets/logo.png" alt="logo">
+        <h1 class="title">Assignment Manager</h1>
+      </div> 
+    </header>
+
+    <div class="container">
+<h3 id="display-username"></span>
+    </div>
+
+    <div class="container">
+      <aside>
+        <h2>Uploaded Assignments</h2>
+        <ul id="file-list"></ul>
+      </aside>
+
+      <section>
+        <h2>Assignment Details</h2>
+        <div id="file-details"></div>
+      </section>
+    </div>
+
+    <div class="webcam">
+      <button id="start-webcam-button">Start Webcam</button>
+      <button id="stop-webcam-button">Stop Webcam</button>
+    </div>
+    <video id="video-element" autoplay></video>
+    <div class="webcam">
+      <button id="quit-button" onclick="quit()">Close App</button>
+    </div>
+    <script src="renderer.js"></script>
+  </body>
+</html>

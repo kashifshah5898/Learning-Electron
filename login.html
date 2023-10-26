@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Assignment Manager App</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="alignCenter">
+        <img class="logo" src="./assets/logo.png" alt="logo" />
+        <h1 class="title">Assignment Manager</h1>
+      </div>
+    </header>
+    <div class="container">
+      <form id="login-form" onsubmit="submitForm()">
+        <label for="username">Name :</label>
+        <input type="text" id="username" name="username" placeholder="Enter your name" required />
+        <div class="webcam">
+          <button type="submit">Next</button>
+        </div>
+      </form>
+    </div>
+
+    <script src="login.js"></script>
+  </body>
+</html>
